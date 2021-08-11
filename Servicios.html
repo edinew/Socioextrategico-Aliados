@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestros Servicios</title>
+    <title>Servicios</title>
+    <link rel="stylesheet" href="/servicios.css">
 </head>
-<body>
-   <h2>
-       <a href="/Pprincipal.html">Inicio</a>
-    </h2> 
-       
-    <ul>
-        <li id="servicios">
-            <h2>Servicios (Usuarios)</h2>
-            <ul>
-                <li><h3>Fecha</h3></li>
-                <li><h3>Origen</h3></li>
-                <li><h3>Destino</h3></li>
-                <li><h3>Valor</h3></li>
-                <li><h3>Comercio</h3></li>
-                <li><h3>Carga (Pequeño-Mediano-Grande)</h3></li>
-            </ul>
-        
-        </li>
-        <li id="usuarioNuevo">
-            <h2>Registar datos</h2>
 
-        </li>
+<body>
+
+    <ul class="menu">
+        <li><a href="/buscar.html">Buscar</a></li>
+        <li><a href="/registroAliados.html">Registro Aliados</a></li>
+        <li><a href="/registroVehiculo.html">Registro Vehiculo</a></li>
+        <li><a href="/Servicios.html">Servicios</a></li>
+        <li><a href="/aliados.html">Aliados</a></li>
 
     </ul>
+
+    <div class="buscar">
+        <button class="button">Buscar</button>
+        <input type="text" placeholder="Introduce la placa...">
+    </div>
+
+    <div class="servicios">
+
+        <form class="datos" action="">  
+
+            <label class="dato" for="modelo">Origen</label>
+            <input type="text" placeholder="Ingrese origen...">
+
+                <label class="dato" for="modelo">Destino</label>
+            <input type="text" placeholder="Ingrese destino...">
+
+                <label class="dato" for="modelo">Fecha</label>
+            <input class="datoFecha"type="date" placeholder="Ingrese fecha...">
+
+                <label class="dato" for="modelo">Valor</label>
+            <input type="text" placeholder="Ingrese Modelo...">
+
+                <label class="dato" for="modelo">Comercio</label>
+            <input type="text" placeholder="Ingrese comercio...">
+
+            <label class="dato" for="modelo">Carga</label>
+            <input type="text" placeholder="Ingrese carga...">           
+
+        </form>
+    </div>
 </body>
+
 </html>

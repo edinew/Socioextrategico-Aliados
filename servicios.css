@@ -1,0 +1,92 @@
+:root {
+    --color-negroTransparente: rgba(0, 0, 0, 0.445);
+    --color-blanco: #ffffff;
+    --color-aguaMarina: rgb(42, 140, 153);
+    --color-blacoTrans: rgb(255, 254, 254);
+    --color-amarillo: rgb(196, 189, 92);
+    --color-gris: grey;
+    --color-transparenteAzul:  rgba(6, 106, 131, 0.3);  
+}
+
+body{
+    background: url(img/aliadosLogo.png);     
+    background-color: var(--color-negroTransparente);      
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: 50%; 
+}
+
+/*---------------------- Estilos menu ----------------------*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+}
+a{
+    text-decoration: none;
+    color: var(--color-blanco);
+}
+label{
+    font-size: 20px;
+    color: var(--color-blanco);
+    background: var(--color-negro);
+}
+li{
+    font-size: 22px;
+    list-style: none;   
+    width: 15%;    
+    background: var(--color-gris);
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+/* -------------------------------------------------------- */
+.buscar {    
+    width: 60%;
+    margin-left: 20%;        
+    margin-bottom: 5%;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 20%;
+    color: var(--color-blanco);
+    background: var(--color-negroTransparente);  
+     
+}
+input{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 10%;
+    color: var(--color-blanco);
+    background: var(--color-negroTransparente); 
+}
+.servicios { 
+    margin-bottom: 20%;
+    width: 90%;
+    margin-left: 5%;
+    background: var(--color-negroTransparente);
+
+}
+.datos { 
+    display: flex;    
+    flex-wrap: wrap;
+    
+           
+}
+.dato {     
+    width: 10%;        
+    margin-left: 5%;
+    margin-top: 10px;       
+}
+.datos input{
+    margin-top: 15px;
+}
+.datoFecha{
+    width: 20%;
+}
+
+
+

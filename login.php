@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="/login.css">
 </head>
 <body>
-    <h2>
-        <a href="/Pprincipal.html">Inicio</a>
-    </h2>
     
-    <div>
+    
+    <div class="login">
+        <div class="logoUsuario">
+            <img src="/img/usuario.png" alt="logo">
+        </div>
         <form action="">
             <label for="usuario">Usuario</label>
             <input type="email">
             <br>
             <label for="contraseña">Contraseña</label>
             <input type="password">
+            <button class="button">Entrar</button>
+            <a class="recuperacion" href="">Olvidaste tu contraseña</a>
             
         </form>
+
     </div>
 
 </body>
