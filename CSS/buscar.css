@@ -9,11 +9,12 @@
 }
 
 body{
-    background: url(img/aliadosLogo.png);     
-    background-color: var(--color-negroTransparente);      
+    background: url(/IMG/aliadosLogo.png);     
+    background-color: var(--color-negroTransparente);
     background-position: center;
     background-repeat: no-repeat;    
-    background-size: 50%; 
+    background-size: 50%;   
+    
 }
 
 /*---------------------- Estilos menu ----------------------*/
@@ -46,7 +47,7 @@ li{
 .buscar {    
     width: 60%;
     margin-left: 20%;        
-    margin-bottom: 5%;
+    margin-top: 5%;
 }
 button{
     font-family: 'Times New Roman', Times, serif;
@@ -58,35 +59,26 @@ button{
 }
 input{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 10%;
     color: var(--color-blanco);
     background: var(--color-negroTransparente); 
 }
 .servicios { 
-    margin-bottom: 20%;
-    width: 90%;
-    margin-left: 5%;
+    margin-bottom: 12%;
+    width: 80%;
     background: var(--color-negroTransparente);
+    margin-left: auto;
+    margin-right: auto;
+}
 
-}
 .datos { 
-    display: flex;    
-    flex-wrap: wrap;
-    
-           
+    display: flex;
+    flex-wrap: wrap;   
+    width: 100%;
 }
-.dato {     
-    width: 10%;        
-    margin-left: 5%;
-    margin-top: 10px;       
-}
-.datos input{
-    margin-top: 15px;
-}
-.datoFecha{
-    width: 20%;
-}
+
+
 
 
 

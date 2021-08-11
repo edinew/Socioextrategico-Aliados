@@ -1,0 +1,75 @@
+:root {
+    --color-negro: rgba(0, 0, 0, 0.445);
+    --color-blanco: #ffffff;
+    --color-aguaMarina: rgb(42, 140, 153);
+    --color-blacoTrans: rgb(255, 254, 254);
+    --color-amarillo: rgb(196, 189, 92);
+    --color-gris: grey;
+    --color-transparenteAzul:  rgba(6, 106, 131, 0.3);  
+}
+
+body{
+    background: url(/IMG/aliadosLogo.png); 
+    background-color: var(--color-negro);    
+    background-size: 50%;  
+    background-repeat: no-repeat;
+    background-position: center;
+
+        
+    
+}
+
+/*---------------------- Estilos menu ----------------------*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+}
+a{
+    text-decoration: none;
+    color: var(--color-blanco);
+}
+label{
+    font-size: 20px;
+    color: var(--color-blanco);
+    background: var(--color-negro);
+}
+li{
+    font-size: 22px;
+    list-style: none;   
+    width: 15%;    
+    background: var(--color-gris);
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+/* -------------------------------------------------------- */
+
+
+.registro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin-left: 17%;
+    margin-bottom: 6%;
+    background: var(--color-negro);
+    width: 69%;
+}
+
+input{
+    position: absolute;
+    margin-left: 8%;
+    background: var(--color-negro);
+    color: var(--color-blanco);
+}
+
+.datos{
+    width: 40%;    
+    padding: 13px;
+    margin: 12px;
+    
+}
+
+

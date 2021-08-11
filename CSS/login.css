@@ -9,7 +9,7 @@
 }
 
 body{
-    background: url(img/aliadosLogo.png);     
+    background: url(/IMG/aliadosLogo.png);     
     background-color: var(--color-negro);
     background-position: center;
     background-repeat: no-repeat;    

@@ -9,7 +9,7 @@
 }
 
 body{
-    background: url(img/aliadosLogo.png);     
+    background: url(/IMG/aliadosLogo.png);     
     background-color: var(--color-negroTransparente);
     background-position: center;
     background-repeat: no-repeat;    
@@ -64,6 +64,25 @@ input{
     color: var(--color-blanco);
     background: var(--color-negroTransparente); 
 }
+/* ------------------------------------------------------- */
+.convenios{
+    background: var(--color-negroTransparente);
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.convenios h2{
+    color: var(--color-blanco);
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+
+
+/* ------------------------------------------------------- */
+
 .servicios { 
     margin-bottom: 12%;
     width: 80%;
@@ -76,6 +95,9 @@ input{
     display: flex;
     flex-wrap: wrap;   
     width: 100%;
+}
+.datos img{
+    width: 60%;
 }
 
 

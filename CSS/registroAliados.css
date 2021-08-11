@@ -9,13 +9,11 @@
 }
 
 body{
-    background: url(img/aliadosLogo.png); 
-    background-color: var(--color-negro);    
-    background-size: 50%;  
-    background-repeat: no-repeat;
+    background: url(/IMG/aliadosLogo.png);     
+    background-color: var(--color-negro);
     background-position: center;
-
-        
+    background-repeat: no-repeat;    
+    background-size: 50%;   
     
 }
 
@@ -29,6 +27,7 @@ body{
 a{
     text-decoration: none;
     color: var(--color-blanco);
+    
 }
 label{
     font-size: 20px;
@@ -50,10 +49,8 @@ li{
 
 .registro{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
+    flex-direction: column;  
     margin-left: 17%;
-    margin-bottom: 6%;
     background: var(--color-negro);
     width: 69%;
 }
@@ -66,10 +63,40 @@ input{
 }
 
 .datos{
-    width: 40%;    
-    padding: 13px;
-    margin: 12px;
+    width: 90%;
     
+    padding: 10px;
+    margin: 10px;
 }
 
+.conductores{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.conductor1{    
+    width: 40%;
+    
+    padding: 10px;
+    margin: 10px;
+}
+.cedula1{
+    width: 40%;
+    
+    padding: 10px;
+    margin: 10px;
+}
 
+.conductor2{    
+    width: 40%;
+    
+    padding: 10px;
+    margin: 10px;
+}
+
+.cedula2{
+    width: 40%;
+    
+    padding: 10px;
+    margin: 10px;
+}
